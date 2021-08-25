@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>FOOD MENU!</title>
+
+    <style>
+        .head{
+            background-color:rgb(66, 56, 56);
+            opacity:0.75;
+            color:red;
+
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            font-style: italic;
+
+        }
+
+        .img1 {
+            width: 100%;
+            height: 30vw;
+            object-fit: cover;
+
+        }
+
+        .car {
+            width: 100%;
+            height: 50vw;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-dark fixed-top head">
+        <div class="container-fluid">
+            <img src="Images_hotel\om.png " height="50px" width="50px" alt="icon"></img>
+            <p class="navbar-text" style="font-size:30px;font-weight:bold;color:red;">OM SWEETS & SNACKS</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                style="font-size: 30px;font-weight:bold;color:white; background-color:black;"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"
+                        style="font-size: 30px;font-weight: bold;color:white; background-color:transparent;">MENU</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body"
+                    style="font-size: 30px;font-weight: bold;color:white; background-color:black;">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" >
+                            <a class="nav-link active" style="color:white;" aria-current="page" href="Food_Menu.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white;" class="nav-link" href="#">About us</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" style="color:white;" aria-expanded="false">
+                                Delicious Food Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown"
+                                style="background-color: black; color:white;">
+                                <li><a class="dropdown-item" style="color:white;" href="North_Indian.html">North Indian</a></li>
+                                <li><a class="dropdown-item" style="color:white;" href="south.html">South Indian</a></li>
+                                <li><a class="dropdown-item" style="color:white;" href="Rajasthan.html">Rajasthan Special</a></li>
+                                <li><a class="dropdown-item" style="color:white;" href="Fastfood.html">Fast Food Snacks</a></li>
+                                <li><a class="dropdown-item" style="color:white;" href="Sweets.html">Delicious Sweets</a></li>
+                                <li><a class="dropdown-item" style="color:white;" href="Drinks.html">Drinks/Shakes & Deserts</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" style="color:white;" href="#">Special offer</a></li>
+                                <li><a class="dropdown-item" style="color:white;" href="#">Order now</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="padding:5px;">
+        <div class="carousel-inner car">
+            <div class="carousel-item active">
+                <img src="Images_hotel\kaju_burfi.gif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images_hotel\chow.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images_hotel\tandoor.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images_hotel\Drinks\d4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images_hotel\sweets.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="Images_hotel/North/n6.jpg" class="card-img-top img1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">North Indian Special</h5>
+                    <p class="card-text">Special Thali/Delux Thali/mewar Thali</p>
+                    <a href="North_Indian.html" class="btn btn-primary">See Variety</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="Images_hotel/south/s3.jpg" class="card-img-top img1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">South Indian</h5>
+                    <p class="card-text">Dosa/Idli Sambhar/ Sambhar rice South Indian Special Thali</p>
+                    <a href="south.html" class="btn btn-primary">See Variety</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="Images_hotel/Rajasthan/r1.jpg" class="card-img-top img1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rajasthani Thali Special</h5>
+                    <p class="card-text">Maharaja Thali/ Mewari Thali</p>
+                    <a href="#" class="btn btn-primary">See Variety</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="Images_hotel\burger.jpg" class="card-img-top img1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fast Food</h5>
+                    <p class="card-text">Burger/Pizza/French Fries/Pao Bhaji/Chole Bhature</p>
+                    <a href="#" class="btn btn-primary">See Varieties</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="Images_hotel\rasgulla.jpg" class="card-img-top img1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sweets Special</h5>
+                    <p class="card-text">Rasgulla/Special Khoya Peda/Rabri/Kaju Katli/Bikaneri Burfi/Ras Malai</p>
+                    <a href="#" class="btn btn-primary">See Varities</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="Images_hotel\mocktail.jpg" class="card-img-top img1" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Drinks/Mocktails</h5>
+                    <p class="card-text">All Soft Drinks/ Mocktails/Shakes</p>
+                    <a href="#" class="btn btn-primary">See Varities</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <pre>
+                    <h3> Om sweets</h3>
+                Powered By DeZarki Designs pvt.ltd       
+        </pre>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
